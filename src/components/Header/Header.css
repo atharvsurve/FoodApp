@@ -1,0 +1,53 @@
+.header{
+    height: 36vw;
+    width: 75vw;
+    border-radius: 20px;
+    margin: 10px auto;
+    background: url('./pexels-valeriya-842545.jpg') no-repeat;
+    background-size: cover;
+    position: relative; 
+}
+
+.header-content{
+    position:  absolute;
+    display: flex;
+    flex-direction: column;
+    top: 100px;
+    display: flex;
+    flex-direction: start;
+    gap: 1.7vw;
+    max-width: 50%;
+    bottom: 20%;
+    left: 4vw;
+    animation: fadeIn 3s;
+    
+    
+}
+.header-content h2{
+font-weight: 500;
+position: relative;
+top: -80px;
+color:white;
+text-shadow: 4px 4px 4px #000000;
+font-size: max(4.5vw , 22px);
+}
+
+.header-content p{
+    color: rgb(235, 223, 223);
+    text-shadow: 2px 2px 2px #000000;
+
+}
+
+.header-content button{
+    border: none;
+    color: #747474;
+    font-weight: 500;
+    padding: 1vw 2.3vw ;
+    background-color: white ;
+    font-size: max(1vw , 13px);
+    border-radius: 50px;
+    width: max-content;
+    height: min-content;
+}
+
+
